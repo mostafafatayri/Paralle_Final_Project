@@ -112,10 +112,3 @@ int main()
     return 0;
 }
 
-/**
- * stb_image.h: https://github.com/nothings/stb/blob/master/stb_image.h
-stb_image_write.h: https://github.com/nothings/stb/blob/master/stb_image_write.h
- *
-
- Implementing image convolution for JPG images in C requires reading the image, converting it to a grayscale matrix, performing the convolution, and writing the output image. I'll provide a basic implementation using the stb_image and stb_image_write libraries for image handling. First, download the following header files and put them in your project directory:
-*/
