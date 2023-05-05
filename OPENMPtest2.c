@@ -109,6 +109,3 @@ int main()
     return 0;
 }
 
-/***
-In this updated version of the code, the `image_convolution` function has been parallelized using OpenMP. The `#pragma omp parallel for collapse(2)` directive is added before the nested loops for `y` and `x`, which parallelizes the two outer loops. The `collapse(2)` clause is used to flatten the nested loops into a single loop, enabling better load balancing among threads. The start and end times are measured using the `omp_get_wtime()` function, which provides a more accurate measurement of the elapsed time for parallel code execution.
-*/
